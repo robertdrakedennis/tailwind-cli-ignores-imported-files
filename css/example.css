@@ -1,0 +1,5 @@
+@layer components {
+    .red {
+        @apply h-4 w-4 bg-red-500;
+    }
+ }
