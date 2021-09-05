@@ -2,7 +2,7 @@
   "name": "tailwind-cli-ignores-imported-files",
   "scripts": {
     "dev": "npx tailwindcss -i ./css/app.css -c ./tailwind.config.js -o ./dist/app.css --watch",
-    "production": "npx tailwindcss -i ./resources/css/app.css -c ./tailwind.config.js -o ./public/css/app.css --minify"
+    "production": "npx tailwindcss -i ./css/app.css -c ./tailwind.config.js -o ./dist/app.css --minify"
   },
   "version": "1.0.0",
   "description": "Show cases tailwind cli ignoring imported css files, which aren't applying styles and transforms",
